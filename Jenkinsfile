@@ -10,7 +10,7 @@ pipeline {
         stage('build')
         {
             steps{
-                git 'https://github.com/Harish1290/demolocustproject.git'
+                
                bat 'locust --config=locust.yml --html htmlreport.html'
             }
         }
