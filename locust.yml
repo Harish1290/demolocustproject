@@ -1,7 +1,7 @@
 #For configuring Locust script
 [locust run]
 host: https://jsonplaceholder.typicode.com
-locustfile: json.py
+locustfile: locustfile.py
 
 #For Headless Execution
 [headless mode]
